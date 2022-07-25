@@ -4,10 +4,6 @@
       <Drawer></Drawer>
     </div>
 
-    <div class="nav-drawer nav-pos" :class="{ 'drawer-hide': hide }" @click="hide =! hide">
-      <Drawer></Drawer>
-    </div>
-
     <div class="main" ref="main">
       <transition :name="transitionName">
         <router-view> </router-view>
@@ -19,65 +15,28 @@
 </template>
 
 <script>
-import Drawer from "../components/Drawer";
 import BacktoTop from "../components/BacktoTop";
 
 export default {
   components: {
-    Drawer,
     BacktoTop
   },
   data() {
     return {
-      hide: true,
+      // hide: true,
       transitionName: "",
     };
   },
-  watch: {
-    $route(to, from) {
-      if (to.meta.index > from.meta.index) {
-        console.log(1);
-        this.transitionName = "slide-left";
-      } else {
-        this.transitionName = "slide-right";
-      }
-    },
-  },
-  mounted() {
-    this.$bus.$on("showMenu", this.showMenu);
-  },
-  beforeDestroy() {
-    this.$bus.$off("showMenu", this.showMenu);
-  },
   computed: {},
   methods: {
-    showMenu() {
-      // console.log("点击了");
-      this.hide = !this.hide;
-      // 去掉hidden属性
-      // console.log(this.$refs.drawer.classList.remove('hidden'))
-    },
   },
 };
 </script>
 
 <style scoped lang="less">
-.drawer-hide {
-  transform: translateX(-480px);
-}
-
-.nav-pos {
-  position: absolute;
-  box-shadow: 200px 0px #88888880;
-  z-index: 999;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  background: white;
-  transition: transform 400ms, opacity 400ms;
-}
 
 .container {
-  position: relative;
+  // position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -168,13 +168,17 @@ export default {
       @media screen and (max-width: 900px) {
         flex-direction: column;
         align-items: baseline;
+         .block {
+            width:100%;
+
+          }
 
       }
       .block {
+        // border: 1px solid red;
         flex-basis: 50%;
 
         .line {
-          // border: 1px solid red;
           text-align: center;
           & > * {
             display: inline-block;
@@ -185,8 +189,6 @@ export default {
           div {
             width: 80%;
             text-align: left;
-
-            // border: 1px solid red;
             .name {
               font-weight: 900;
             }
