@@ -2,7 +2,7 @@
     <div class="container1">
         <h2>安装</h2>
         <div class="step">
-            <h3>🎯 1 下载项目文件 </h3>
+            <h3>🎯 下载项目文件 </h3>
             <p>npm git@github.com:janice143/vui-components.git</p>
         </div>
         <div class="step">
