@@ -1,14 +1,14 @@
 # 安装
 ### 🎯 下载项目文件
 ```
-npm git@github.com:janice143/vui-components.git
+git clone git@github.com:janice143/vui-components.git
 ```
 
 ### 🎯 找到VUI文件夹，拷贝至你的项目中使用
 
 ### 🎯 引入VUI组件
 ```
-import vui from $ "../VUI";
+import vui from "../VUI";
 Vue.use(vui);
 ```
 ### 🎯 编译项目

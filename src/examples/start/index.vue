@@ -3,7 +3,7 @@
         <h2>安装</h2>
         <div class="step">
             <h3>🎯 下载项目文件 </h3>
-            <p>npm git@github.com:janice143/vui-components.git</p>
+            <p>git clone git@github.com:janice143/vui-components.git</p>
         </div>
         <div class="step">
             <h3>🎯 找到VUI文件夹，拷贝至你的项目中使用</h3>
@@ -11,7 +11,7 @@
 
         <div class="step">
             <h3>🎯 引入VUI组件</h3>
-            <p>import vui from $ "../VUI";</p>
+            <p>import vui from "../VUI";</p>
             <p>Vue.use(vui);</p>
         </div>
 
