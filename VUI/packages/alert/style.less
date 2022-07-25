@@ -1,0 +1,74 @@
+@import url(../../theme/global.less);
+
+.alert{
+    
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    
+
+    .alert-close{
+       margin-left: auto;
+       cursor: pointer;
+    }
+    .iconfont{
+        margin-right:10px;
+    }
+    .text{
+        flex:1;
+        .alert-title{
+            display: block;
+        }
+        .alert-description{
+            display: block;
+            font-size: 10px;
+        }
+        &.is-center{
+            text-align: center;
+        }
+        
+    }
+    // light
+    &.alert--success.alert--light{
+        color: @success-color;
+        background-color: @success-plain-color;
+    }
+    &.alert--info.alert--light{
+        color: @info-color;
+        background-color: @info-plain-color;
+    }
+    &.alert--warning.alert--light{
+        color: @warning-color;
+        background-color: @warning-plain-color;
+    }
+    &.alert--error.alert--light{
+        color: @error-color;
+        background-color: @error-plain-color;
+    }
+
+    // dark
+    &.alert--success.alert--dark{
+        color: white;
+        background-color: @success-color;
+    }
+    &.alert--info.alert--dark{
+        color: white;
+        background-color: @info-color;
+    }
+    &.alert--warning.alert--dark{
+        color: white;
+        background-color: @warning-color;
+    }
+    &.alert--error.alert--dark{
+        color: white;
+        background-color: @error-color;
+    }
+}
+.alert-fade-enter-active, .alert-fade-leave-active {
+    transition: all .3s ease;
+  }
+  .alert-fade-enter, .alert-fade-leave-to {
+    opacity: 0;
+  }

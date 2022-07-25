@@ -1,0 +1,122 @@
+@default-color:#606266;
+@primary-color:#1867c0;
+@error-color: #f44336;
+@warning-color: #ff9800;
+@success-color: #4caf50;
+@info-color: #000;
+
+
+@default-hover-color:#000000CC;
+@primary-hover-color:#1867c0CC;
+@error-hover-color: #f44336CC;
+@warning-hover-color: #ff9800CC;
+@success-hover-color: #4caf50CC;
+@info-hover-color: #000000CC;
+
+// 十六进制的不透明度 https://blog.csdn.net/ezconn/article/details/90052114
+@error-plain-color: #f443361A;
+@warning-plain-color: #e79f181A;
+@success-plain-color: #00ce3f1A;
+@info-plain-color: #0000001A;
+@primary-plain-color:#1867c01A;
+@default-plain-color:#6062661A;
+
+// chatbox的对话框默认颜色
+@default-bg-color: #bbc9d01A;
+
+
+@code-string-color: #756bb1;
+@code-number-color: #31a354;
+
+
+@icon-github: rgb(42,42,42);
+
+//定位全屏
+.allcover{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+//transform上下左右居中
+.ctt {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+//定位上下左右居中
+.ctp(@width, @height) {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-top: -@height/2;
+    margin-left: -@width/2;
+}
+
+//定位上下居中
+.tb {  
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位左右居中
+.lr {  
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+//宽高
+.wh(@width, @height){
+	width: @width;
+	height: @height;
+}
+
+//字体大小、行高、字体
+.ft(@size, @line-height) {  
+	font-size: @size;
+	line-height:@line-height;
+}
+
+//字体大小
+.sc(@size){
+	font-size: @size;
+}
+
+//flex 布局和 子元素 对其方式
+.row{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+// padding-left, padding-right
+.px(@left,@right){
+    padding-left:@left;
+    padding-right:@right;
+}
+.py(@top,@bottom){
+    padding-top:@top;
+    padding-bottom:@bottom;
+}
+.pa(@x,@y){
+    padding-top:@y;
+    padding-bottom:@y;
+    padding-left:@x;
+    padding-right:@x;
+}
+.mx(@left,@right){
+    margin-left:@left;
+    margin-right:@right;
+}
+.my(@top,@bottom){
+    margin-top:@top;
+    margin-bottom:@bottom;
+}
+.ma(@x,@y){
+    margin-top:@y;
+    margin-bottom:@y;
+    margin-left:@x;
+    margin-right:@x;
+}
