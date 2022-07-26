@@ -7,7 +7,7 @@
     <darkcom></darkcom>
     <delay></delay>
     <visible></visible>
-    <showpara :parameter="parameter"></showpara>
+    <showpara title="Attributes" :parameter="parameter"></showpara>
   </div>
 </template>
 

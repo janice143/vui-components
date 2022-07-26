@@ -82,7 +82,7 @@
         </div>
       </template>
     </Showcomponent> 
-    <Showparameter title="Options" :parameter="parameter" style="margin-top:150px;"></Showparameter>        
+    <Showparameter title="Attributes" :parameter="parameter" style="margin-top:150px;"></Showparameter>        
   </div>
 </template>
 

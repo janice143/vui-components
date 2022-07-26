@@ -64,7 +64,7 @@ export default {
   padding-top: 40px;
 
   .main {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

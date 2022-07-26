@@ -117,13 +117,9 @@
       </template>
     </Showcomponent>
 
-    <h1 style="margin: 50px 0 30px 0">Attribution</h1>
+    <Showparameter title="Attributes steps" :parameter="stepsParams"></Showparameter>
 
-    <h2>CtSteps</h2>
-    <Showparameter :parameter="stepsParams"></Showparameter>
-
-    <h2 style="margin: 50px 0 0 0">CtStep</h2>
-    <Showparameter :parameter="stepParams"></Showparameter>
+    <Showparameter title="Attributes step" :parameter="stepParams"></Showparameter>
   </div>
 </template>
 

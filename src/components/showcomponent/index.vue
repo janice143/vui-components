@@ -23,7 +23,7 @@
         <div class="highlight">
           <div class="codearea">
             <!-- codeareas -->
-            <pre v-highlight="codes"><code></code></pre>
+            <pre v-highlight="codes"  class="language-elixir"><code></code></pre>
             
           </div>
         </div>

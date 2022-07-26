@@ -6,7 +6,7 @@
     <icon></icon>
     <disable></disable>
     <nohide></nohide>
-    <showpara :parameter="parameter"></showpara>
+    <showpara title="Attributes" :parameter="parameter"></showpara>
   </div>
 </template>
 

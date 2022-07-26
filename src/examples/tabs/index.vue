@@ -12,11 +12,8 @@
     <icon></icon>
     <changeable></changeable>
 
-    <div class="attr">Attribution</div>
-    <h3>CtTabs props</h3>
-    <Showpara :parameter="parameter1"></Showpara>
-    <h3>CtTabPane props</h3>
-    <Showpara :parameter="parameter2"></Showpara>
+    <Showpara title="Attributes tabs" :parameter="parameter1"></Showpara>
+    <Showpara title="Attributes tabpalne" :parameter="parameter2"></Showpara>
   </div>
 </template>
 

@@ -16,10 +16,11 @@
 
 <script>
 import BacktoTop from "../components/BacktoTop";
-
+import Drawer from "@/components/Drawer";
 export default {
   components: {
-    BacktoTop
+    BacktoTop,
+    Drawer
   },
   data() {
     return {

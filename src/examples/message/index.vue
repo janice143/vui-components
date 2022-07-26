@@ -54,7 +54,7 @@
     </p>
 
     <showpara
-      title="Options"
+      title="Attributes"
       :parameter="parameter"
       style="margin-top: 150px"
     ></showpara>

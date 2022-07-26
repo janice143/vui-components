@@ -59,9 +59,8 @@
         </div>
       </template>
     </Showcomponent>
-
-    <h2>Options</h2>
-    <Showparameter :parameter="params"></Showparameter>
+    
+    <Showparameter title="Attributes" :parameter="params"></Showparameter>
   </div>
 </template>
 
