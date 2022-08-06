@@ -1,0 +1,26 @@
+[
+  {
+    "name": "头像",
+    "eName": "Avatar"
+  },
+  {
+    "name": "徽标",
+    "eName": "Badge"
+  },
+  {
+    "name": "按钮",
+    "eName": "Button"
+  },
+  {
+    "name": "聊天盒子",
+    "eName": "Chatbox"
+  },
+  {
+    "name": "加载",
+    "eName": "Loading"
+  },
+  {
+    "name": "链接",
+    "eName": "Link"
+  }
+]

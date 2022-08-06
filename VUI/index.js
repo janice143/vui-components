@@ -13,6 +13,7 @@ requireComponents.keys().forEach((key) => {
     components.push(requireComponents(key).default);
 });
 
+// console.log(components)
 //组件注册
 const install = function(Vue) {
     // 遍历并注册所有组件

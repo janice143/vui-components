@@ -1,0 +1,22 @@
+[
+  {
+    "name": "警告",
+    "eName": "Alerts"
+  },
+  {
+    "name": "对话框",
+    "eName": "Dialog"
+  },
+  {
+    "name": "下拉框",
+    "eName": "Dropdown"
+  },
+  {
+    "name": "消息",
+    "eName": "Message"
+  },
+  {
+    "name": "通知",
+    "eName": "Notification"
+  }
+]

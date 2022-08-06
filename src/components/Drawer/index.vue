@@ -2,12 +2,49 @@
   <div class="LeftBlock">
     <vuescroll>
       <ul>
-        <li v-for="(item, index) in sideNav" :key="index">
+        <h3>开发指南</h3>
+        <li>
+          <router-link
+            to="/components/Start"
+            tag="li"
+            active-class="ct-aside-active"
+            >Start 起步</router-link
+          >
+        </li>
+      </ul>
+      <ul>
+        <h3>基础组件</h3>
+        <li v-for="(item, index) in basicNav" :key="index">
           <router-link
             :to="'/components/' + item.eName"
             tag="li"
             active-class="ct-aside-active"
-            >{{ `${item.eName} ${item.name}` }}</router-link>
+            >{{ `${item.eName} ${item.name}` }}</router-link
+          >
+        </li>
+      </ul>
+
+       <ul>
+        <h3>展示组件</h3>
+        <li v-for="(item, index) in showNav" :key="index">
+          <router-link
+            :to="'/components/' + item.eName"
+            tag="li"
+            active-class="ct-aside-active"
+            >{{ `${item.eName} ${item.name}` }}</router-link
+          >
+        </li>
+      </ul>
+
+       <ul>
+        <h3>反馈组件</h3>
+        <li v-for="(item, index) in feedbackNav" :key="index">
+          <router-link
+            :to="'/components/' + item.eName"
+            tag="li"
+            active-class="ct-aside-active"
+            >{{ `${item.eName} ${item.name}` }}</router-link
+          >
         </li>
       </ul>
     </vuescroll>
@@ -23,7 +60,9 @@ export default {
   },
   data() {
     return {
-      sideNav: require("./navDrawerList.json"),
+      basicNav: require("./basic.json"),
+      showNav: require("./show.json"),
+      feedbackNav: require("./feedback.json"),
     };
   },
 };
@@ -51,7 +90,11 @@ ul li:hover {
 ul li > li {
   padding-left: 50px;
 }
-
+ul h3 {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+}
 @media screen and (max-width: 900px) {
 }
 </style>
