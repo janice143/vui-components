@@ -1,5 +1,14 @@
 [
   {
+    "name": "日历",
+    "eName": "Calendar"
+  },
+  {
+    "name": "日期选择器",
+    "eName": "datepicker"
+    
+  },
+  {
     "name": "评分",
     "eName": "Rate"
   },

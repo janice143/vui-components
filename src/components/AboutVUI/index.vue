@@ -71,19 +71,19 @@ export default {
     return {
       team1: [
         {
-          name: "兰燕平",
+          name: "兰*",
           nickname: "iaine",
           task: "总体页面搭建、设计、布局和部分组件开发，协调组员开发合作，进行代码提交合并。",
           imgsrc: "https://s6.jpg.cm/2022/07/14/P5PzNu.png",
         },
         {
-          name: "张辰旺",
+          name: "张*",
           nickname: "廿三",
           task: "负责项目文件结构与逻辑优化、色彩的搭配与全局引入、组件开发",
           imgsrc: "https://s6.jpg.cm/2022/07/25/P7rwxk.jpg",
         },
         {
-          name: "章雨欣",
+          name: "章*",
           nickname: "芝士玉米粒",
           task: "主页和是色彩页面开发，以及部分组件开发",
           imgsrc: "https://s6.jpg.cm/2022/07/25/P7rBEy.jpg",
@@ -91,19 +91,19 @@ export default {
       ],
       team2: [
         {
-          name: "章柳",
+          name: "章*",
           nickname: "水天一色",
           task: "组件展示界面以及部分组件开发的工作",
           imgsrc: "https://s6.jpg.cm/2022/07/25/P7r46e.jpg",
         },
         {
-          name: "张晓松",
+          name: "张*",
           nickname: "韶华易换",
           task: "部分组件开发的工作",
           imgsrc: "https://s6.jpg.cm/2022/07/25/P7rhou.jpg",
         },
         {
-          name: "胡杭锦",
+          name: "胡*",
           nickname: "Carly",
           task: "部分组件开发的工作",
           imgsrc: "https://s6.jpg.cm/2022/07/25/P7rjDG.jpg",

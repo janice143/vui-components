@@ -32,6 +32,8 @@ const switches = () => import("../examples/switches");
 
 const tabs = () => import("../examples/tabs");
 const tree = () => import("../examples/tree");
+const calendar = () => import("../examples/calendar");
+const datepicker = () => import("../examples/datepicker");
 
 
 const routes = [
@@ -130,6 +132,14 @@ const routes = [
       {
         path: "tree",
         component: tree,
+      },
+      {
+        path: "calendar",
+        component: calendar,
+      },
+      {
+        path: "datepicker",
+        component: datepicker,
       },
 
     ],
