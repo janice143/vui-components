@@ -14,7 +14,7 @@ Vue.use(viewUiComponents)
 
 ### 在线文档
 ```
-http://101.34.27.188:8090/components/start
+https://mellow-taiyaki-3ea650.netlify.app/
 ```
 
 ### 🎯 下载项目文件
