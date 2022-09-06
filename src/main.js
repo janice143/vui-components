@@ -15,9 +15,18 @@ Vue.component(showcomponent.name,showcomponent)
 Vue.component(showparameter.name,showparameter)
 
 
-//引入组件
-import vui from "../VUI";
-Vue.use(vui);
+// 按需引入组件
+// import alert from "../VUI/packages/alert"
+// Vue.use(alert)
+
+// 
+import vui from "../VUI"
+Vue.use(vui)
+
+// npm 引入插件
+// import viewUiComponents from 'view-ui-components'
+// import 'view-ui-components/lib/vui.css'
+// Vue.use(viewUiComponents)
 
 // 引入代码高亮highlight插件
 import Highlight from "./plugins/highlight";

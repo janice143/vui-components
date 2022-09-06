@@ -37,4 +37,5 @@ const install = function(Vue) {
 //导出全局install
 export default {
     install,
+    ...components
 };

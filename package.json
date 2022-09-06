@@ -1,17 +1,22 @@
 {
-  "name": "vui-components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "view-ui-components",
+  "version": "0.1.1",
+  "description": "基于 Vue.2x 的UI组件库",
+  "main": "lib/vui.umd.min.js",
+  "keyword": "vue ui components, custom ui, element",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vui --dest lib VUI/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "highlight.js": "^11.6.0",
     "less": "^4.1.3",
     "less-loader": "^7.3.0",
+    "view-ui-components": "^0.1.1",
     "vue": "^2.6.14",
     "vue-cli-plugin-style-resources-loader": "^0.1.5",
     "vue-router": "^3.5.4",
@@ -23,11 +28,13 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "compression-webpack-plugin": "^10.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "i": "^0.3.7",
     "style-resources-loader": "^1.5.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack-bundle-analyzer": "^4.6.0"
   },
   "eslintConfig": {
     "root": true,
@@ -47,5 +54,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
